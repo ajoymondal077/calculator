@@ -11,10 +11,11 @@ public class calculatorGUI {
         JComboBox<String> operators = new JComboBox<>(new String[]{"+", "-", "*", "/"});
         JButton calculateButton = new JButton("Calculate");
 
-        textField1.setBounds(50, 40, 150, 30);
-        operators.setBounds(210, 40, 50, 30);
-        textField2.setBounds(270, 40, 150, 30);
-        calculateButton.setBounds(150, 100, 100, 30);
+       
+        textField1.setBounds(50,40,150,30);
+        operators.setBounds(210,40,50,30);
+        textField2.setBounds(270,40,150,30);
+        calculateButton.setBounds(150,100,100,30);
         resultField.setBounds(50, 150, 370, 30);
 
 
